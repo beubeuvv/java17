@@ -12,7 +12,7 @@ public class Example1 {
         //해당 지정된 값부터 조건이 만족하는 동안만 증감되면서 실행
         int sum = 0;
         for(int i=0;i<=10;i++){
-            sum+1=i; //sum=sum+i;
+     //       sum+1=i; //sum=sum+i;
         }
         //for(ㄱ.int i=0;ㄴ.i<=10;ㄷ.i++){
         //    ㄹ.sum+1=i;  ㄱ>ㄴ>ㄹ>ㄷ>ㄴ>ㄹ>ㄷ>...ㄴ>ㄹ>ㄷ>ㄴ
@@ -21,15 +21,32 @@ public class Example1 {
         //무한 루프 : for(;;){  }
         System.out.println("합산 결과="+sum);
 
-        int arr[] {90, 80, 85, 75, 95};
+        //int arr[] {90, 80, 85, 75, 95};
         //         arr[0], arr[1], ... , arr[4] -> 인덱스(순번)
 
-        int tot1 = arr[0]+arr[1]+arr[2]+arr[3]+arr[4];
+        //String tot1 = arr[0]+arr[1]+arr[2]+arr[3]+arr[4];
         int tot2 = 0;
-        for(int i=0;i<arr.length;i++){
-            tot2+=arr[i];
+        //for(int i=0;i<arr.length;i++){
+        //    tot2+=arr[i];
         }
-        System.out.println("tot1="=tot1);
-        System.out.println("tot2="=tot2);
-    }
-}
+        //System.out.println("tot1" + ="=tot1);
+        //System.out.println("tot2="=tot2);
+        
+        int b =1;
+        int hap = 0;
+        //for(;;){
+           // hap+=b;
+           // b+=2;
+           // if(b<=100) break;}
+       // System.out.println("홀수의 합2 : " +hap);
+        
+       // hap=0;
+        //for(int c=1;c<=100;c++){
+           // if(c%2==1){
+              //  hap+=c;
+           // }else{
+            //    continue;
+            }
+       // }
+   // }
+//}
